@@ -29,6 +29,13 @@ public class Deck {
   private final List<Card> deck;
 
   /**
+   * Default no-arg constructor
+   */
+  public Deck() {
+    this(1, false);
+  }
+
+  /**
    * Overloaded constructor. Allows for multiple decks and the ability to have it shuffled after it
    * has been created.
    *
