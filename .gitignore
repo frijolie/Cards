@@ -1,0 +1,27 @@
+## Java
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+## Maven
+target/
+
+## General
+*.zip
+*.tar.gz
+*.rar
+
+## VSCode
+.settings/
+.vscode/
+.project
+.classpath
+
+## IntelliJ
+.idea/*
+*.iml
+*.ipr
+out/
+modules.xml
